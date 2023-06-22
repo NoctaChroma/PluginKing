@@ -1,0 +1,26 @@
+name: King
+version: '${project.version}'
+main: fr.jimmis.king.King
+api-version: 1.20
+authors: [JimMis]
+description: Plugin By JimMis
+commands:
+  uhc:
+    description: UHC
+    permission: uhc.king
+    permission-message: Vous ne pouvez pas effectuer cette commande !
+  config:
+    description: Config UHC
+    permission: uhcconfig.king
+    permission-message: Vous ne pouvez pas effectuer cette commande !
+  plugin:
+    description: Commande Troll
+    permission: plugin.king
+    permission-message: Bozo !
+    aliases: [p]
+  gm:
+    description:
+    permission: gamemode.use
+    permission-message: Vous n'avez pas la permission d'utiliser cette commande.
+
+
